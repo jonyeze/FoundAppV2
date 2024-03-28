@@ -8,9 +8,15 @@ module.exports = {
       inputs: "#C6C6C6",
       disableInput: "#CDCDCD",
       whiteBG: "#666464",
-      backgroundcolor: '#FFFFFF'
+      backgroundcolor: "#FFFFFF",
+      inputBorder: "#838383",
+      inputText: '#454545'
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        'lato': ['Lato', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 };
