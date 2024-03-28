@@ -1,13 +1,13 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Header from "./components/header";
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="flex justify-center items-center h-screen">
-      <div className="bg-red-500 w-64 h-64">holaaaa</div>
-    </div>
+    <>
+      <Header />
+    </>
   );
 }
 
 export default App;
-
