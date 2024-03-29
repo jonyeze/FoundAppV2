@@ -10,7 +10,8 @@ module.exports = {
       whiteBG: "#666464",
       backgroundcolor: "#FFFFFF",
       inputBorder: "#838383",
-      inputText: '#454545'
+      inputText: '#454545',
+      cardBG: '#FBFBFB'
     },
     extend: {
       fontFamily: {
