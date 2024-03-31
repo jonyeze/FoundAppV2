@@ -4,13 +4,14 @@ import { FobjIconProps } from "./types";
 const FobjIcon: React.FC<FobjIconProps> = ({
   color,
   size = 108,
+  height = 30,
   className,
 }) => {
   return (
     <svg
       className={className}
       width={size}
-      height={size}
+      height={height}
       viewBox="0 0 108 30"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
