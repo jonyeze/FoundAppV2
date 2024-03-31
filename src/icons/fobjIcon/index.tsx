@@ -1,12 +1,16 @@
 import React from "react";
 import { FobjIconProps } from "./types";
 
-const FobjIcon: React.FC<FobjIconProps> = ({ color, className }) => {
+const FobjIcon: React.FC<FobjIconProps> = ({
+  color,
+  size = 108,
+  className,
+}) => {
   return (
     <svg
-    className={className}
-      width="108"
-      height="30"
+      className={className}
+      width={size}
+      height={size}
       viewBox="0 0 108 30"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
