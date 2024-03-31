@@ -1,11 +1,18 @@
 import React from "react";
 import FobjIcon from "../../icons/fobjIcon";
+import { LoaderProps } from "./types";
 
-const Loader: React.FC = () => {
+const Loader: React.FC<LoaderProps> = ({ width = "w-[30px]", height = "h-[30px]", logoSize = '30' }) => {
   return (
     <div className="flex-col gap-4 w-full flex items-center justify-center">
-      <div className="w-20 h-20 border-8 text-inputs animate-spin border-inputs flex items-center justify-center border-t-secondary rounded-full">
-        <FobjIcon color="#001F54" className="animate-pulse" size="40" />
+      <div
+        className={`${width} ${height} border-2 text-inputs animate-spin border-inputs flex items-center justify-center border-t-secondary rounded-full`}
+      >
+        <FobjIcon
+          className="animate-pulse"
+          size={logoSize}
+          color={"#FFFF"}
+        />
       </div>
     </div>
   );
