@@ -3,6 +3,8 @@ import Layout from "../../../components/layout";
 import FobjIcon from "../../../icons/fobjIcon";
 import CustomInput from "../../../components/customInput";
 import Button from "../../../components/customButton";
+import LogoCircle from "../../../components/logoCircle";
+import GoogleIcon from "../../../icons/googleIcon/googleIcon";
 
 const SignIn: React.FC = () => {
   const [email, setEmail] = useState("");
@@ -60,10 +62,11 @@ const SignIn: React.FC = () => {
           </span>
           <div className="bg-inputBorder border border-inputs w-[25%] h-[1px]"></div>
         </div>
+        <div><LogoCircle logoComponent={<GoogleIcon />} /></div>
+
       </form>
 
       <div>
-        <div></div>
         <span>Ya tienes cuenta?</span>
       </div>
 
