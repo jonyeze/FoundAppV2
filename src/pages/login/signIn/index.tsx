@@ -82,11 +82,12 @@ const SignIn: React.FC = () => {
               Crear Cuenta
             </span>
           </div>
+          <div className="justify-center flex bottom-0 left-0 w-full md:hidden mt-3">
+          <FobjIcon color={"#001F54"} />
+        </div>
         </form>
 
-        <footer className="justify-center flex bottom-0 left-0 w-full md:hidden mt-3">
-          <FobjIcon color={"#001F54"} />
-        </footer>
+        
       </div>
     </div>
   );
