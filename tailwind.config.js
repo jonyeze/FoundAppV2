@@ -10,13 +10,14 @@ module.exports = {
       whiteBG: "#666464",
       backgroundcolor: "#FFFFFF",
       inputBorder: "#838383",
-      inputText: '#454545',
-      cardBG: '#FBFBFB'
+      inputText: "#454545",
+      cardBG: "#FBFBFB",
+      error: "#cc0000",
     },
     extend: {
       fontFamily: {
-        'lato': ['Lato', 'sans-serif'],
-      }
+        lato: ["Lato", "sans-serif"],
+      },
     },
   },
   plugins: [],

@@ -26,7 +26,7 @@ const Button: React.FC<ButtonProps> = ({
 
   return (
     <button
-      className={`font-semibold ${roundedSize} w-full h-[44px] text-[16px] ${bgColor} ${textColor}`}
+      className={`font-semibold ${roundedSize} w-full h-[44px] text-[16px] md:text-[20px] ${bgColor} ${textColor}`}
       onClick={onClick}
       disabled={disabled || loading}
     >
