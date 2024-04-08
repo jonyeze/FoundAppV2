@@ -6,7 +6,7 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <div className="container flex w-full h-screen p-10 flex-col items-center">
+    <div className="container m-auto flex w-full h-full p-5 flex-col items-center">
       {children}
     </div>
   );
